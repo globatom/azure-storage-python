@@ -24,10 +24,6 @@ from ._error import (
     _validate_not_none,
     _ERROR_UNKNOWN_KEY_WRAP_ALGORITHM
 )
-from cryptography.hazmat.primitives.keywrap import(
-    aes_key_wrap,
-    aes_key_unwrap,
-)
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.asymmetric.rsa import generate_private_key
 from cryptography.hazmat.primitives.asymmetric.padding import (
